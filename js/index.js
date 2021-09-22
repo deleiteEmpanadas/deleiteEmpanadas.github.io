@@ -1,7 +1,7 @@
 window.sr = ScrollReveal();
 
 	sr.reveal('.fondo', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-50px', //distancia
 		
@@ -10,7 +10,7 @@ window.sr = ScrollReveal();
 	}); 
 
 	sr.reveal('.buttons', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-100px', //distancia
 		
@@ -18,7 +18,7 @@ window.sr = ScrollReveal();
 	}); 
 
 	sr.reveal('.imagen1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'right', //origen
 		distance: '-100px', //distancia
 		reset: 1000
@@ -26,7 +26,7 @@ window.sr = ScrollReveal();
 	});
 
 	sr.reveal('.cajeta1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -34,7 +34,7 @@ window.sr = ScrollReveal();
 	});
 
 	sr.reveal('.piña1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -42,7 +42,7 @@ window.sr = ScrollReveal();
 	});
 
 sr.reveal('.fresa1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -50,7 +50,7 @@ sr.reveal('.fresa1', {
 	});
 
 sr.reveal('.crema1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -58,7 +58,7 @@ sr.reveal('.crema1', {
 	});
 
 sr.reveal('.nutella1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -66,7 +66,7 @@ sr.reveal('.nutella1', {
 	});
 
 sr.reveal('.zarzamora1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -74,7 +74,7 @@ sr.reveal('.zarzamora1', {
 	});
 
 sr.reveal('.combinada21', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -82,7 +82,7 @@ sr.reveal('.combinada21', {
 	});
 
 sr.reveal('.combinada31', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -90,7 +90,7 @@ sr.reveal('.combinada31', {
 	});
 
 sr.reveal('.surtida1', {
-		duration: 3000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -101,7 +101,7 @@ sr.reveal('.surtida1', {
 	
 
 	sr.reveal('.piepagina', {
-		duration: 2000, //tiempo
+		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-100px', //distancia
 		reset:100
