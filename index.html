@@ -7,13 +7,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
     <script src="js/scrollreveal.js"></script>
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+   
+});
+
+
+</script>
+
 	<title>DELEITE</title>
 	<link rel="shortcut icon" href="img/empanadas2.png"/>
 	
-
+     
 </head>
 <body>
 
@@ -395,15 +428,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="piepagina col">
-					<p class="piepag">Dolores del Rio #102 B Norte</p>
-					<p class="piepag">Entre Canoas y Aquiles Serdán, 34075</p>
-					<p class="piepag">Victoria de Durango, México</p>
-					<p class="piepag">CONTÁCTANOS: </p>
 					<ul class="list-unstyled basic-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Dolores del Rio #102 B Norte</li>
+                    <p class="piepag">Entre Canoas y Aquiles Serdán, 34075</p>
+                    <p class="piepag">Victoria de Durango, México</p>
+                    <p class="piepag">CONTÁCTANOS: </p>
                             <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me//526183563178?text=¡Hola,%20buen%20día!%20me%20gustaría%20obtener%20más%20información." >(618) 356 3178</a></li>
                             <li><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/Deleite-103394438414533">Deleite</a></li>
                     </ul>
-                    
+                    <div class="col-5 col-md-3">
+                    <img src="img/logotipoBlanco.png">
+ 
+               
+
+        </div>        
                    
 				</div>
 			</div>
@@ -411,11 +449,14 @@
 	</section>
     <a href="https://wa.me//526183563178?text=¡Hola,%20buen%20día!%20me%20gustaría%20obtener%20más%20información." class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+</a>
 
 	<!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 </html>
