@@ -96,7 +96,7 @@ img{
     border-bottom-color:white;
 }
 #scroll:hover {
-    background-color:#e74c3c;
+    background-color:#6C757D;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
