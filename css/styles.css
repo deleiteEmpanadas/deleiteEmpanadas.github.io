@@ -1,38 +1,18 @@
 /* GENERAL */
 body{
-  background: #FFD143;
+  background: white;
   color: black;
-  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
-
+   overflow-x: hidden;
  
 }
-@keyframes anim{
-    0% {
-    left: 0;
-    top: 0;
-  }
-  10% {
-    left: 5rem;
-    top: 0rem;
-    color: black;
-  }
-  30% {
-    top: 5rem;
-    left: 5rem;
-    color: white;
-  }
-  60%{
-    top: 5rem;
-    left: 0;
-    color: black;
-  }
-  100% {
-    top: 0;
-    left: 0;
-  }
+
+div.row{
+   margin-right: 0px;
 }
 
-
+div.container-fluid{
+   padding-right: 0px;
+}
 p{
   margin-bottom: 0px;
   margin-left: : 100px;
@@ -40,67 +20,26 @@ p{
 }
 
 
-.fondo{
-  background: white;
+
+.imagen1{
+  background: #FFD143;
+  margin-top: -57px;
+ 
+
+}
+.prox{
+  font-family: 'Bebas Neue', cursive;
+}
+@media (min-width: 750px) {
+  .imagen1 {
+   margin-top: -150px;
+  }
 }
 
 img{
   width: 100%;
 }
 
-nav{
-  background: #FF5A1D;
-  letter-spacing: 5px;
-}
-
-.imagen1{
-  margin-top: 15px;
-}
-.cajeta1{
-  margin-top: 10px;
-
-
-}
-
-.piña1{
-  margin-top: 0px;
-}
-
-.fresa1{
-  margin-top: 0px;
-}
-
-.crema1{
-  margin-top: 0px;
-}
-
-.zarzamora1{
-  margin-top: 0px;
-
-}
-
-.nutella1{
-  margin-top: 0px;
-}
-
-.combinada21{
-  margin-top: 0px;
-}
-.combinada31{
-  margin-top: 0px;
-}
-
-.surtida1{
-  margin-top: 0px;
-  margin-bottom: 20px;
-
-}
-a#caj{
-  .cajeta1{
-    background-color: white;
-  }
-  
-}
 
 .float{
   position:fixed;
@@ -136,7 +75,7 @@ a#caj{
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#FF5A1D;
+    background-color:black;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
@@ -152,7 +91,7 @@ a#caj{
     height:0;
     width:0;
     border:8px solid transparent;
-    border-bottom-color:#ffffff;
+    border-bottom-color:white;
 }
 #scroll:hover {
     background-color:#e74c3c;
@@ -162,12 +101,17 @@ a#caj{
 /* PIE DE PÁGINA */
 
 .pie{
-  border-top: solid 1px white;
-  padding-top: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: Georgia, Times, Times New Roman, serif  sans-serif;
+  background-color: #FF5412;
+    color:black;
   font-size: 8;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  color:black;
+  position:relative;
+  z-index: -1;
+  text-decoration:none;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .piepag {
@@ -175,7 +119,13 @@ a#caj{
   text-align: center;
 }
 
-ul{
-  text-align: center;
-}
-
+.center{display:table;width:100%;background-color:#FF5412;
+margin-top:-25px;
+margin-bottom:;}
+#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
+#social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
+#social-test .social{padding-left:0}
+#social-test a{color:black;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid black;cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
+#social-test a:hover{color:#fff;border:1px solid #ccc}
+.social:hover>a{opacity:.5}
+.social:hover>a:hover{opacity:1}

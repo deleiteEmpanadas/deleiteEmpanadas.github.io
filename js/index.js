@@ -1,6 +1,6 @@
 window.sr = ScrollReveal();
 
-	sr.reveal('.fondo', {
+	sr.reveal('.logotipo', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-50px', //distancia
@@ -17,7 +17,7 @@ window.sr = ScrollReveal();
 
 	}); 
 
-	sr.reveal('.imagen1', {
+	sr.reveal('.empanadaspng', {
 		duration: 1500, //tiempo
 		origin: 'right', //origen
 		distance: '-100px', //distancia
@@ -115,3 +115,35 @@ sr.reveal('.surtida1', {
 		reset: 1000
 
 	}); 
+
+$(document).ready(function () {
+  $(".nav-link").on('click', function (event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function () {
+
+
+      });
+    }
+  });
+});
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
