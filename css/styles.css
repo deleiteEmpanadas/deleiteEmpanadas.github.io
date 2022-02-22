@@ -20,7 +20,9 @@ p{
 }
 
 
-
+.logo{
+  background-color: transparent;
+}
 .imagen1{
   background: #FFD143;
   margin-top: -57px;
