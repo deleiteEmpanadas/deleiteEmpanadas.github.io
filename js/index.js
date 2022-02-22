@@ -17,7 +17,7 @@ window.sr = ScrollReveal();
 
 	}); 
 
-	sr.reveal('.pie', {
+	sr.reveal('.piepagina', {
 		duration: 1500, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
