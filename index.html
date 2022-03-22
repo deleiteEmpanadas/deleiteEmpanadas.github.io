@@ -45,13 +45,23 @@ $(document).ready(function(){
 
 
 </script>
-
+<script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 2000);
+    </script>
 	<title>Deleite</title>
 	<link rel="shortcut icon" href="img/empanadas2.png"/>
 	
      
 </head>
 <body>
+    <div class="loader_bg">
+    <div class="loader"><img class="col-12 col-lg-9" src="img/logotipo.png"></div>
+     <div class="progress">
+        <div class="loading-bar indeterminate" ng-style="{'background-color': view.code.color1 || view.color1}"></div>
+    </div>
+</div>
     <section class="logo col-12">
                     <div class="row justify-content-center">
                         <img class=" col-12 col-lg-5 ml-2" src="img/logotipo.png">    
