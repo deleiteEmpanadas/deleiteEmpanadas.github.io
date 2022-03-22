@@ -29,7 +29,7 @@ window.sr = ScrollReveal();
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
-		delay:2000
+		
 
 	}); 
 
