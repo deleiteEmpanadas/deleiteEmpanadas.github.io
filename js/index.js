@@ -4,15 +4,16 @@ window.sr = ScrollReveal();
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '0px', //distancia
-		delay:800
+		delay:2000
 
 
 	}); 
 
 	sr.reveal('.cuerpo', {
-		duration: 1500, //tiempo
-		origin: 'right', //origen
-		distance: '-100px', //distancia
+		duration: 1000, //tiempo
+		origin: 'top', //origen
+		distance: '-60px', //distancia
+		delay:2000
 		
 
 	}); 
@@ -21,6 +22,7 @@ window.sr = ScrollReveal();
 		duration: 1500, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
+		delay:2000
 
 	}); 
 
@@ -28,6 +30,7 @@ window.sr = ScrollReveal();
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
+		delay:2000
 
 	}); 
 
