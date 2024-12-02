@@ -19,7 +19,7 @@ window.sr = ScrollReveal();
 
 	sr.reveal('.piepagina', {
 		duration: 1500, //tiempo
-		origin: 'left', //origen
+		origin: 'right', //origen
 		distance: '-100px', //distancia
 		
 
