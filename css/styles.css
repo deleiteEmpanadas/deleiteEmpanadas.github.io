@@ -173,3 +173,21 @@ margin-bottom:;}
 #social-test a:hover{color:#fff;border:1px solid #ccc}
 .social:hover>a{opacity:.5}
 .social:hover>a:hover{opacity:1}
+
+.btn{
+  text-decoration:none;
+  color:white;
+  border-color: #FF5412;
+  background-color: #FF5412;
+     font-family: 'Fredoka One', cursive;
+    letter-spacing: 3px;
+}
+
+
+.btn:hover{
+  text-decoration:none;
+  color: #000;
+  border-color: #000;
+  background-color:transparent; 
+ 
+}
