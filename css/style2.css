@@ -1,6 +1,6 @@
 /* GENERAL */
 body{
-  background: white;
+   background: linear-gradient( to top,#f89832, 90%, #feefe0 );
   color: black;
    overflow-x: hidden;
  
@@ -58,8 +58,8 @@ p{
   background-color: transparent;
 }
 .imagen1{
-  background: #FFD143;
-  margin-top: -57px;
+  background: ;
+  margin-top: px;
  
 
 }
@@ -174,12 +174,11 @@ margin-bottom:;}
 .social:hover>a{opacity:.5}
 .social:hover>a:hover{opacity:1}
 
-}
 .btn{
   text-decoration:none;
-  color:white;
-  border-color: #FF5412;
-  background-color: #FF5412;
+  color:black;
+  border-color: #faca5d;
+  background-color: #faca5d;
      font-family: 'Fredoka One', cursive;
     letter-spacing: 3px;
 }
