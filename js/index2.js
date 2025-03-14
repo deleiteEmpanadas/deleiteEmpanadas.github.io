@@ -68,6 +68,13 @@ sr.reveal('.prox2', {
 		distance: '-400px', //distancia
 
 	});
+	sr.reveal('.destinos4', {
+		duration: 3500, //tiempo
+		delay:500,
+		origin: 'top', //origen
+		distance: '-400px', //distancia
+
+	});
 	sr.reveal('.empanada', {
 		duration: 3000, //tiempo
 		origin: 'left', //origen

@@ -220,6 +220,16 @@ img{
 
   margin-top: -200px;
 }
+.destinos4{
+  background-image: url(../img/galletas2.jpg);
+  background-size: cover; 
+  position: relative; 
+  background-repeat: repeat;
+  border-radius: 30px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+
+  /*margin-top: -200px;*/
+}
 
 .btn{
   text-decoration:none;
