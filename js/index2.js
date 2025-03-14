@@ -16,7 +16,7 @@ sr.reveal('.prox2', {
 		duration: 2500, //tiempo
 		origin: 'top', //origen
 		distance: '-300px', //distancia
-		delay:1000
+		delay:700
 		
 
 	}); 
@@ -33,7 +33,7 @@ sr.reveal('.prox2', {
 		duration: 2500, //tiempo
 		origin: 'left', //origen
 		distance: '200px', //distancia
-		delay:1000
+		delay:700
 		
 
 	}); 
@@ -41,7 +41,7 @@ sr.reveal('.prox2', {
 		duration: 2500, //tiempo
 		origin: 'bottom', //origen
 		distance: '200px', //distancia
-		delay:1400
+		delay:1000
 		
 
 	}); 
