@@ -37,6 +37,14 @@ sr.reveal('.prox2', {
 		
 
 	}); 
+	sr.reveal('.cuerpo2', {
+		duration: 2500, //tiempo
+		origin: 'bottom', //origen
+		distance: '200px', //distancia
+		delay:700
+		
+
+	}); 
 	sr.reveal('.btn', {
 		duration: 2500, //tiempo
 		origin: 'bottom', //origen
