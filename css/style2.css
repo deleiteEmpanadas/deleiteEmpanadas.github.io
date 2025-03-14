@@ -63,8 +63,11 @@ p{
  
 
 }
-.prox{
+.prox2{
   font-family: 'Bebas Neue', cursive;
+}
+.prox{
+  font-family: 'Fredoka One', cursive;
 }
 @media (min-width: 750px) {
   .imagen1 {
@@ -145,7 +148,8 @@ img{
 /* PIE DE PÁGINA */
 
 .pie{
-  background-color: #FF5412;
+    background: linear-gradient( to top,#f89832, 20%, #FF5412 );
+  background-color: #;
     color:black;
   font-size: 8;
   text-align: center;
@@ -153,7 +157,7 @@ img{
   font-size: 1.2rem;
   color:black;
   position:relative;
-  z-index: -1;
+  
   text-decoration:none;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
@@ -163,31 +167,107 @@ img{
   text-align: center;
 }
 
-.center{display:table;width:100%;background-color:#FF5412;
-margin-top:-25px;
-margin-bottom:;}
-#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
-#social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
-#social-test .social{padding-left:0}
-#social-test a{color:black;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid white;cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
-#social-test a:hover{color:#fff;border:1px solid #ccc}
-.social:hover>a{opacity:.5}
-.social:hover>a:hover{opacity:1}
+.social-container{
+  width:auto;
+  margin:0vh auto;
+  text-align:center
+
+}
+.social-icons{
+   margin-top: -100px;
+  padding:0;
+  list-style:none;margin:1em
+}
+.social-icons li{
+  display:inline-block;
+  margin:.15em;
+  position:relative;
+  font-size:1.2em
+}
+.social-icons i{color:#10213F;
+  position:absolute;top:21px;
+  left:21px;
+  transition:all 265ms ease-out}
+.social-icons a{
+  display:inline-block
+}
+.social-icons a:before{
+  transform:scale(1);
+  -ms-transform:scale(1);
+  -webkit-transform:scale(1);
+  content:"";
+  width:60px;height:60px;
+  border-radius:100%;
+  display:block;background:linear-gradient(45deg,#fff,#fff);
+  transition:all 265ms ease-out
+}
+.social-icons a:hover:before{transform:scale(0);transition:all 265ms ease-in}
+.social-icons a:hover i{transform:scale(2.2);
+  -ms-transform:scale(2.2);
+  -webkit-transform:scale(2.2);
+  color:#9B7A07;background:-webkit-linear-gradient(45deg,#fff,#fff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  transition:all 265ms ease-in
+}
+.destinos3{
+  background-image: url(../img/fondo.jpeg);
+  background-size: cover; 
+  position: relative; 
+  background-repeat: repeat;
+  border-radius: 30px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+
+  margin-top: -200px;
+}
 
 .btn{
   text-decoration:none;
   color:black;
-  border-color: #faca5d;
-  background-color: #faca5d;
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-right: 2px solid ;
+  border-left: 2px solid ;
+  border-color: #000;
+  background-color: #FFD143;
      font-family: 'Fredoka One', cursive;
     letter-spacing: 3px;
+    box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 }
 
 
 .btn:hover{
   text-decoration:none;
-  color: #000;
-  border-color: #000;
+  color: #fff;
+  border-color: #fff;
   background-color:transparent; 
  
+}
+
+.flecha {
+  position: relative;
+  -webkit-animation-name: rebote; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+.flecha span{
+  background-color: #2F2B2B;
+  display: block;
+  margin-top: -4px;
+  height: 15px;
+  width: 200px;
+}
+/* Standard syntax */
+@keyframes rebote {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:-7px;}
+  75%  {left:0px; top:-5px;}
+  100% {left:0px; top:0px;}
 }
